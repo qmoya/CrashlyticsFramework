@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
   }
   s.author       = 'Crashlytics'
   s.source       = { :git => "https://github.com/bpoplauschi/CrashlyticsFramework.git", :tag => "#{s.version}" }
-  s.platform     = :ios, '5.0'
   s.source_files = 'Crashlytics.framework/Versions/A/Headers/*.h'
   s.requires_arc = true
   s.ios.vendored_frameworks = 'Crashlytics.framework'
